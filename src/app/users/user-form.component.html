@@ -1,0 +1,8 @@
+<form #userform="ngForm">
+  {{userform.valid}}
+  <div class="form-group">
+    <input type="text" class="form-control" name="name" required>
+    <input type="text" class="form-control" name="username" required>
+    <button type="submit" class="btn btn-lg btn-block btn-primary">Create User</button>
+  </div>
+</form>
